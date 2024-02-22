@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Hernan</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" maxlength="50"><br>
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="text" id="apellidos" name="apellidos" maxlength="50"><br>
+        <label for="sexo">Sexo:</label><br>
+        <input type="radio" id="hombre" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label><br>
+        <input type="radio" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <input type="checkbox" id="novedades" name="novedades" checked>
+        <label for="novedades">Deseo recibir información sobre novedades y ofertas</label><br>
+        <input type="checkbox" id="condiciones" name="condiciones">
+        <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
+        <label for="poblacion">Población:</label><br>
+        <select id="poblacion" name="poblacion">
+            <option value="bucaramanga">Bucaramanga</option>
+            <option value="giron">Giron</option>
+            <option value="floridablanca">Floridablanca</option>
+            <option value="piedecuesta">Piedecuesta</option>
+        </select><br>
+        <label for="descripcion">Descripción:</label><br>
+        <textarea id="descripcion" name="descripcion"></textarea><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
