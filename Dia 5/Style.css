@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(imagenes/personas.png), url(imagenes/fondo.png);
+    background-size: auto, auto;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, top left;
+}
+
+div {
+    border: 0;
+}
+
+.inicio {
+    width: 1920px;
+    height: 1080px;
+}
+
+.barra_superior {
+    width: 1857px;
+    height: 54px;
+    margin-top: 29px;
+    margin-left: 62.43px;
+}

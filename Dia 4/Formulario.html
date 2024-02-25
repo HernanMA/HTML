@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Formulario de Hernan</title>
     <style>
@@ -9,25 +10,32 @@
             padding: 0;
             background-color: #f0f0f0;
         }
+
         form {
-            width: 60%;
+            width: 40%;
             margin: 50px auto;
             background-color: #fff;
-            padding: 20px;
+            padding: 30px;
             border-radius: 8px;
-            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
         }
+
         label {
             display: block;
             margin-bottom: 5px;
         }
-        input[type="text"], input[type="email"], select, textarea {
-            width: 100%;
+
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 80%;
             padding: 10px;
             margin-bottom: 10px;
             border-radius: 4px;
             border: 1px solid #ccc;
         }
+
         input[type="submit"] {
             background-color: #4CAF50;
             color: white;
@@ -37,11 +45,13 @@
             cursor: pointer;
             float: right;
         }
+
         input[type="submit"]:hover {
             background-color: #45a049;
         }
-</style>
+    </style>
 </head>
+
 <body>
     <form action="" method="GET">
         <label for="nombre">Nombre:</label><br>
@@ -58,7 +68,8 @@
         <input type="checkbox" id="novedades" name="novedades" checked>
         <label for="novedades">Deseo recibir información sobre novedades y ofertas</label><br>
         <input type="checkbox" id="condiciones" name="condiciones">
-        <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
+        <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa
+            sobre protección de datos.</label><br>
         <label for="poblacion">Población:</label><br>
         <select id="poblacion" name="poblacion">
             <option value="bucaramanga">Bucaramanga</option>
@@ -71,4 +82,5 @@
         <input type="submit" value="Enviar">
     </form>
 </body>
+
 </html>
