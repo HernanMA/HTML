@@ -16,7 +16,6 @@ body {
     background-size: auto, auto;
     background-repeat: no-repeat, no-repeat;
     background-position: top left, top left;
-
 }
 
 div {
@@ -25,10 +24,8 @@ div {
 
 
 .inicio {
-
     width: 1920px;
     height: 1080px;
-
 }
 
 .parte_dos {
