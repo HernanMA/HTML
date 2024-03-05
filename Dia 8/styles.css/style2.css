@@ -1,0 +1,21 @@
+.Contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(164, 193, 221);
+}
+
+.Contenedor > img{
+    background-color: #e3b6b6;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 10px;
+    position: relative;
+    bottom: 1em;
+    right: 7em;
+}
