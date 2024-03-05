@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.ImagenDinos {
+    background-color: darkblue;
+    border: 1px black solid;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+
