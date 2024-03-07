@@ -135,3 +135,102 @@ html {
         top: 31em;
     }
 }
+
+.Uno {
+    position: absolute;
+    width: 6em;
+    height: auto;
+    left: 50%;
+    top: 40em;
+    animation: opacidad1 3s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+@keyframes opacidad1 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.Dos {
+    position: absolute;
+    width: 6em;
+    height: auto;
+    left: 50%;
+    top: 40em;
+    animation: opacidad2 1s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+@keyframes opacidad2 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.Tres {
+    position: absolute;
+    width: 6em;
+    height: auto;
+    left: 50%;
+    top: 40em;
+    animation: opacidad3 1s forwards;
+    opacity: 0;
+}
+
+@keyframes opacidad3 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.Accion {
+    position: absolute;
+    width: 30em;
+    height: auto;
+    left: 40%;
+    top: 33em;
+    animation: opacidad4 1s forwards;
+    animation-delay: 3s;
+    opacity: 0;
+}
+
+@keyframes opacidad4 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
