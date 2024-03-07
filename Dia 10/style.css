@@ -61,28 +61,20 @@ html {
     height: 10em;
     top: 57em;
     left: 50em;
-    animation: Puf 14s;
-    opacity: 1;
+    animation: Puf 2s forwards;
+    animation-delay: 11s;
+    opacity: 0;
 }
 
 @keyframes Puf {
     0% {
-        top: 1100px;
-        opacity: 0;
-    }
-
-    80% {
-        top: 1100px;
-        opacity: 0;
-    }
-
-    96% {
+        top: 90em;
         opacity: 0;
     }
 
     100% {
         opacity: 1;
-        top: 650px;
+        top: 56em;
     }
 }
 
