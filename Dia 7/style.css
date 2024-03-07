@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #1e1d2b;
+    width: 1920px;
+    height: 1080px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Foods {
+    position:absolute;
+    color: #ff702a;
+    font-size: 50px;
+    top: 0.2em;
+    left: 2.5em;
+}
+
+.Home {
+    position: absolute;
+    color: #ffff;
+    font-size: 30px;
+    text-decoration: none;
+    top: 2em;
+    left: 37em;
+}
+
+.About {
+    position: absolute;
+    color: #ffff;
+    font-size: 30px;
+    text-decoration: none;
+    top: 2em;
+    left: 41.7em;
+}
+
+.Menu {
+    position: absolute;
+    color: #ffff;
+    font-size: 30px;
+    text-decoration: none;
+    top: 2em;
+    left: 46.6em;
+}
+
+.Service {
+    position: absolute;
+    color: #ffff;
+    font-size: 30px;
+    text-decoration: none;
+    top: 2em;
+    left: 51.5em;
+}
+
+.Contact {
+    position: absolute;
+    color: #ffff;
+    font-size: 30px;
+    text-decoration: none;
+    top: 2em;
+    left: 57em;
+}
+
+.texto_1 {
+    position:absolute;
+    color: #ff702a;
+    font-size: 125px;
+    top: 2em;
+    left: 1.9em;
+    width: 6em;
+}
+
+.info_E {
+    position: absolute;
+    color: #ffff;
+    font-size: 40px;
+    top: 13em;
+    left: 6em;
+    width: 10em;
+}
+
+.imagen_P {
+    position: absolute;
+    top: 15em;
+    left: 70em;
+    width: 45em;
+    height: auto;
+}
+
+.texto_Today {
+    position: absolute;
+    color: #ffff;
+    background-color: #ff702a;
+    text-decoration: none;
+    top: 30em;
+    left: 9.5em;
+    font-size: 25px;
+    padding: 10px 20px;
+    width: 7em;
+}
+
+.imagen_about {
+    position: absolute;
+    top: 85em;
+    left: 24em;
+}
+
+.about_us {
+    position: absolute;
+    color: #ff702a;
+    font-size: 28px;
+    top: 48em;
+    left: 38.2em;
+    width: 5em;
+}
+
+.Good {
+    position: absolute;
+    color: #ffff;
+    font-size: 55px;
+    top: 25em;
+    left: 19.4em;
+    width: 15em;
+}
+
+.information {
+    position: absolute;
+    color: #ffff;
+    font-size: 28px;
+    top: 56.4em;
+    left: 38.1em;
+    width: 20em;
+}
+
+.Learn {
+    position: absolute;
+    color: #ffff;
+    text-decoration: none   ;
+    font-size: 25px;
+    top: 72em;
+    left: 42.8em;
+    background-color: #ff702a;
+    padding: 10px 20px;
+    width: 6em;
+}
+
+.texto_foodmenu {
+    position: absolute;
+    color: #ff702a;
+    font-size: 28px;
+    top: 78em;
+    left: 32em;
+    width: 6em;
+}
+
+.Fresh {
+    position: absolute;
+    color: #ffff;
+    font-size: 55px;
+    top: 40.5em;
+    left: 11.6em;
+    width: 13em;
+}
+
+.food_Menu {
+    position:absolute;
+    background-color: #ffefe8;
+    width: 22em;
+    height: 26em;
+    margin-top: 153em;
+    margin-left: 25em;
+}
+
+.f2 {
+    position:absolute;
+    background-color: #ffefe8;
+    width: 22em;
+    height: 26em;
+    margin-top: 153em;
+    margin-left: 50em;
+}
+
+.f3 {
+    position:absolute;
+    background-color: #ffefe8;
+    width: 22em;
+    height: 26em;
+    top: 156em;
+    margin-left: 75em;
+}
+
+.caja1 {
+    position: absolute;
+    top: 154.8em;
+    left: 27.5em;
+}
+
+.information_1 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top: 137.5em;
+    left: 25.5em;
+    width: 8em;
+}
+
+.taste {
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    top: 186em;
+    left: 36.3em;
+    width: 6em;
+}
+
+.Precio {
+    position: absolute;
+    color: #ff702a;
+    font-size: 15px;
+    top: 187.6em;
+    left: 37.5em;
+}
+
+.caja2 {
+    position: absolute;
+    top: 154.8em;
+    left: 52.4em;
+}
+
+.information_2 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top: 137.5em;
+    left: 44.7em;
+    width: 10em;
+}
+
+.taste2 {
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    top: 186em;
+    left: 63em;
+    width: 6em;
+}
+
+.Precio_2 {
+    position: absolute;
+    color: #ff702a;
+    font-size: 15px;
+    top: 187.6em;
+    left: 64.2em;
+}
+
+.caja3 {
+    position: absolute;
+    top: 155em;
+    left: 1250px;
+    width: 17em;
+    height: auto;
+}
+
+.information_3 { 
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top: 137.5em;
+    left: 65em;
+    width: 9em;
+}
+
+.taste3 {
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    top: 186em;
+    left: 89.5em;
+    width: 6em;
+}
+
+.Precio_3 {
+    position: absolute;
+    color: #ff702a;
+    font-size: 15px;
+    top: 187.6em;
+    left: 90.8em;
+}
+
+.services { 
+    position: absolute;
+    color: #ff702a;
+    font-size: 28px;
+    top: 113em;
+    left: 32.2em;
+}
+
+.Text {
+    position: absolute;
+    color: #ffff;
+    font-size: 55px;
+    top: 58em;
+    left: 10em;
+    width: 15em;
+}
+
+.img1 {
+    position: absolute;
+    top: 214em;
+    left: 19em;
+    width: 25em;
+    height: auto;
+}
+
+.Order {
+    position: absolute;
+    color: #ff702a;
+    font-size: 50px;
+    top: 74.5em;
+    left: 8.4em;
+}
+
+.Texto1 {
+    position: absolute;
+    color: #ffefe8;
+    font-size: 30px;
+    top: 127em;
+    left: 9em;
+    text-align: center;
+    width:15em;
+}
+
+.img2 {
+    position: absolute;
+    top: 214em;
+    left: 50em;
+    width: 25em;
+    height: auto;
+}
+
+.shipping {
+    position: absolute;
+    color: #ff702a;
+    font-size: 50px;
+    top: 74.5em;
+    left: 18em;
+}
+
+.Texto2 {
+    position: absolute;
+    color: #ffefe8;
+    font-size: 30px;
+    top: 127em;
+    left: 26em;
+    text-align: center;
+    width: 15em;
+}
+
+.img3 {
+    position: absolute;
+    top: 214em;
+    left: 82em;
+    width: 22em;
+    height: auto;
+}
+
+.dellvered {
+    position: absolute;
+    color: #ff702a;
+    font-size: 50px;
+    top: 74.5em;
+    left: 27.5em;
+}
+
+.Texto3 {
+    position: absolute;
+    color: #ffefe8;
+    font-size: 30px;
+    top: 127em;
+    left: 42.7em;
+    width: 15em;
+    text-align: center;
+}
+
+.F {
+    position:absolute;
+    background-color: #ffefe8;
+    width: 103em;
+    height: 35em;
+    margin-top: 275em;
+    margin-left: 9em;
+}
+
+.make {
+    position:absolute;
+    color: #1e1d2b;
+    top: 82em;
+    left: 11.7em;
+    text-align: center;
+    font-size: 55px;
+    width: 11em;
+}
+
+.texto_learn2 {
+    position: absolute;
+    color: #ffff;
+    text-decoration: none   ;
+    font-size: 25px;
+    top: 191em;
+    left: 34em;
+    background-color: #ff702a;
+    padding: 10px 20px;
+    width: 6em;
+}
+
+.Comida {
+    position: absolute;
+    color: #ffefe8;
+    font-size: 35px;
+    top: 147.12em;
+    left: 8.5em;
+    width: 6em;
+}
+
+.line {
+    position: absolute;
+    top: 327.3em;
+    left: 18.7em;
+    width: 5em;
+    height: 0.1em;
+    background-color: #ff702a;
+}
+
+.food {
+    position: absolute;
+    color: #ffefe8;
+    font-size: 25px;
+    top: 209.1em;
+    left: 12em;
+}
+
+.Comida2 {
+    position: absolute;
+    color: #ffefe8;
+    font-size: 35px;
+    top: 147.12em;
+    left: 17.1em;
+    width: 6em;
+}
+
+.linea2 {
+    position: absolute;
+    top: 327.3em;
+    left: 37.6em;
+    width: 5em;
+    height: 0.1em;
+    background-color: #ff702a;
+}
+
+.foot2_m { 
+    position: absolute;
+    color: #ffefe8;
+    font-size: 25px;
+    top: 209.1em;
+    left: 24em;
+    width: 11em;
+}
+
+.food3 {
+    position: absolute;
+    color: #ffefe8;
+    font-size: 35px;
+    top: 147.12em;
+    left: 27.1em;
+}
+
+.line3 {
+    position: absolute;
+    top: 327.3em;
+    left: 59.4em;
+    width: 5em;
+    height: 0.1em;
+    background-color: #ff702a;
+}
+
+.Comida3 {
+    position: absolute;
+    color: #ffefe8;
+    font-size: 25px;
+    top: 5230px;
+    left: 950px;
+    width: 10em;
+}
+
+.food4 {
+    position: absolute;
+    color: #ffefe8;
+    font-size: 35px;
+    top: 147.1em;
+    left: 37em;
+    width: 6em;
+}
+
+.linea4 {
+    position: absolute;
+    top: 327.3em;
+    left: 81.3em;
+    width: 5em;
+    height: 0.12em;
+    background-color: #ff702a;
+}
+
+.e1 {
+    background-color: #ff702a;
+    border-radius: 100%;
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    top: 328.2em;
+    left: 81.2em;
+}
+
+.e2 {
+    background-color: #ff702a;
+    border-radius: 100%;
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    top: 328.2em;
+    left: 84.3em;
+}
+
+.e3 {
+    background-color: #ff702a;
+    border-radius: 100%;
+    position: absolute;
+    width: 40px;
+    height: 2.5em;
+    top: 328.2em;
+    left: 87.4em;
+}
+
+.e4 {
+    background-color: #ff702a;
+    border-radius: 100%;
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    top: 328.1em;
+    left: 90.6em;
+}
