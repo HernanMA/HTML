@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 1080px;
+    width: 1920px;
+}
+
+.Background {
+    background-image: url(imagenes/minecraft.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 1080px;
+    width: 1920px;
+}
+
+.Casita {
+    position: absolute;
+    top: 28em;
+    left: 0em;
+    width: 40em;
+    height: auto;
+}
+
+.Sol {
+    position: absolute;
+    left: 80em;
+    opacity: 1;
+    animation-name: Transparencia;
+    animation-duration: 15s;
+    width: 30em;
+}
+
+@keyframes Transparencia {
+    0% {
+        opacity: 1;
+    }
+
+    0.5% {
+        opacity: 0.5;
+    }
+
+    70% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.Flor {
+    position: absolute;
+    width: 5em;
+    height: 10em;
+    top: 57em;
+    left: 50em;
+    animation: Puf 14s;
+    opacity: 1;
+}
+
+@keyframes Puf {
+    0% {
+        top: 1100px;
+        opacity: 0;
+    }
+
+    80% {
+        top: 1100px;
+        opacity: 0;
+    }
+
+    96% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        top: 650px;
+    }
+}
+
+.Nube {
+    position: absolute;
+    top: 5em;
+    left: 20em;
+    width: 40em;
+    opacity: 0;
+    animation: Magia 15s;
+    animation-delay: 3.5s;
+}
+
+@keyframes Magia {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+        left: 44em;
+    }
+
+    50% {
+        left: 44em;
+        opacity: 1;
+    }
+
+    60% {
+        left: -62em;
+        opacity: 1;
+    }
+
+    100% {
+        left: -62em;
+        opacity: 1;
+    }
+}
+
+.Lluvia {
+    position: absolute;
+    width: 25em;
+    top: 18em;
+    left: 53em;
+    opacity: 0;
+    animation: Sacrificio 1s;
+    animation-delay: 5s;
+    animation-iteration-count: 6;
+}
+
+@keyframes Sacrificio {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        top: 31em;
+    }
+}
